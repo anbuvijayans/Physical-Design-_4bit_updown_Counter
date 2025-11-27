@@ -69,29 +69,48 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • add slow.lib with a label Slow or any identifier of your own.
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b3669bb9-c029-450a-98c2-935dd141e208" />
+
 ### Fig.1 Add slow Library set
 
 • add fast.lib with a label Fast or any identifier of your own.
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b3669bb9-c029-450a-98c2-935dd141e208" />
+
 
 ### Fig.2 Add fast Library set
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/4dfc84b2-f5cd-4d7a-91bf-353af79cf1ee" />
+
+
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/37c90c5e-51b7-41d6-b8b2-cacdf6c9094c" />
+
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e86b66c6-dcc7-414a-822f-9b7b62bfdd42" />
+
+
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/61d23df0-0764-4f0b-8583-50c5ffa724a7" />
+
+
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0a886d62-b5fd-4954-8836-18d45f1141b3" />
+
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
@@ -106,6 +125,9 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 In the Import Design window click the save option to save the Default.globals file
 
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/63379336-46a8-4c32-8cbd-f9a66ee00271" />
+
 
 ### Fig.8 Core area
 
@@ -126,6 +148,9 @@ In the Import Design window click the save option to save the Default.globals fi
 3. Channel Spacing between Core Boundary to IO Boundary
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e31c527a-8386-4f7d-8941-45938efda4a1" />
+
 
 ### Fig.9 Specify Floorplan 
 
@@ -171,6 +196,9 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/9082f8cb-1e25-4e21-8ea3-d7e2aaa6c46f" />
+
+
 ### Fig.10 Power plan 
 
 The complete Power Planning process makes sure Every Standard Cell receives enough power to operate smoothly.
@@ -183,7 +211,13 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
    
 • All the Standard Cells and Pins are placed as per the communication between them, i.e., Two communicating Cells are placed as close as possible so that shorter Net lengths can be used for connections as Shorter Net Lengths enable Better Timing Results.
 
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/17657254-a503-4ee0-a61b-9ed3e3465b50" />
+
 ### Fig.11 Placement of standard Cells 
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/5527622c-4e8d-442e-943d-6320dbbdb3eb" />
+
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
 
